@@ -145,3 +145,6 @@ sftp-config.json
 /public/location.json
 secret.md
 .DS_Store
+
+
+.env
