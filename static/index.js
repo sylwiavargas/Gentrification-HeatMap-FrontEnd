@@ -215,8 +215,6 @@ function addShop2010Heatmap(event) {
         data: locations,
         map: map,
         maxIntensity: 4,
-        radius: rad,
-        opacity: opac
       })
     })
     event.target.dataset.status = "active"
@@ -238,8 +236,6 @@ function addShop2018Heatmap(event) {
         data: locations,
         map: map,
         maxIntensity: 4,
-        radius: rad,
-        opacity: opac
       })
     })
     event.target.dataset.status = "active"
@@ -308,7 +304,6 @@ function addNoise2010Heatmap(event) {
         map: map,
         maxIntensity: 8,
         radius: 5,
-        opacity: opac
       })
     })
     event.target.dataset.status = "active"
@@ -331,7 +326,6 @@ function addNoise2018Heatmap(event) {
         map: map,
         maxIntensity: 8,
         radius: 5,
-        opacity: opac
       })
     })
     event.target.dataset.status = "active"
