@@ -303,7 +303,7 @@ function addNoise2010Heatmap(event) {
         data: locations,
         map: map,
         maxIntensity: 8,
-        radius: 5,
+        radius: 5
       })
     })
     event.target.dataset.status = "active"
@@ -325,7 +325,7 @@ function addNoise2018Heatmap(event) {
         data: locations,
         map: map,
         maxIntensity: 8,
-        radius: 5,
+        radius: 5
       })
     })
     event.target.dataset.status = "active"
